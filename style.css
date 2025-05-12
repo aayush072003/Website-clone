@@ -140,7 +140,7 @@ header.shadow .logo{
 }
 .home-text{
     z-index: 1000;
-    padding: 0 150px;
+    padding: 200px 90px;
 }
 .home-text span{
     color: var(--bg-color);
