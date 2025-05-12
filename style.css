@@ -15,7 +15,7 @@
 /* Some Variables */
 :root{
     --main-color:#ff2c1f;
-    --text-color:#020307;
+    --text-color:#000000;
     --bg-color:#fff;
 }
 /* Custom Scroll bar*/
@@ -179,6 +179,29 @@ header.shadow .logo{
     font-weight: 500;
     text-transform: uppercase;
     border-bottom: 1px solid var(--main-color);
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vm;
+    margin: auto;
+    color: var(--bg-color);
+    justify-content: center;
+    align-items: center;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 30vm;
+    position: relative;
+    z-index: 10;
+}
+.secimg video{
+    position: absolute;
+        top: 107px;
+        width: 470px;
+     right: 89px;
 }
 .movies-container{
     max-width: 968px;
